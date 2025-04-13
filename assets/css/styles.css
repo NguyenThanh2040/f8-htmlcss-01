@@ -610,6 +610,11 @@ footer .desc {
     width: 2.8rem;
     height: 2.8rem;
     border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.footer .social-link:nth-child(n + 1) {
+    margin-right: 1.6rem;
 }
 
 .footer .social-link:hover {
