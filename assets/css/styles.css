@@ -162,11 +162,27 @@ a {
     margin-top: 23px;
 }
 
+.clients .row-desc .desc:last-child {
+    margin-top: -0.7rem;
+}
+
 .clients .images {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    padding: 0 4.2rem;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ======== Guides ======== */
@@ -565,6 +581,9 @@ a {
 
 .footer .item {
     margin-top: 1.8rem;
+}
+.footer .item:hover {
+    text-decoration: underline;
 }
 
 .footer .item a,
